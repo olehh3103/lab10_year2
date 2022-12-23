@@ -1,6 +1,6 @@
-package db;
+package part2;
 
-import ukrainian.БазаДаних;
+import part1.ukrainian.БазаДаних;
 
 public class ReportBuilder {
     private БазаДаних db;

@@ -1,6 +1,6 @@
-package adapter;
+package part1.adapter;
 
-import ukrainian.Авторизація;
+import part1.ukrainian.Авторизація;
 
 public class Authorization extends Авторизація {
 

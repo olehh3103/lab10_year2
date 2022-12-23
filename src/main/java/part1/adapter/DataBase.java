@@ -1,6 +1,6 @@
-package adapter;
+package part1.adapter;
 
-import ukrainian.БазаДаних;
+import part1.ukrainian.БазаДаних;
 
 public class DataBase extends БазаДаних {
     public String getUserData() {

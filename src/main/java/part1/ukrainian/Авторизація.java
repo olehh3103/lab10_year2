@@ -1,4 +1,4 @@
-package ukrainian;
+package part1.ukrainian;
 
 public class Авторизація {
     public boolean авторизуватися(БазаДаних db) {

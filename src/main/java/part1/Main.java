@@ -1,10 +1,11 @@
-package db;
+package part1;
 
 //import ukrainian.Авторизація;
 //import ukrainian.БазаДаних;
 
-import adapter.Authorization;
-import adapter.DataBase;
+import part2.ReportBuilder;
+import part1.adapter.Authorization;
+import part1.adapter.DataBase;
 
 public class Main {
     public static void main(String[] args) {
