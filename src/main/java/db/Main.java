@@ -1,10 +1,16 @@
 package db;
 
+//import ukrainian.Авторизація;
+//import ukrainian.БазаДаних;
+
+import adapter.Authorization;
+import adapter.DataBase;
+
 public class Main {
     public static void main(String[] args) {
-        БазаДаних db = new БазаДаних();
-        Авторизація авторизація = new Авторизація();
-        if (авторизація.авторизуватися(db)) {
+        DataBase db = new DataBase();
+        Authorization authorization = new Authorization();
+        if (authorization.authorizationing(db)) {
             ReportBuilder br = new ReportBuilder(db);
         }
     }

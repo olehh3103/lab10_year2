@@ -1,4 +1,4 @@
-package db;
+package ukrainian;
 
 public class БазаДаних {
     public String отриматиДаніКористувача() {
